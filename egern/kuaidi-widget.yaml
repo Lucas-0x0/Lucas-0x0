@@ -1,39 +1,39 @@
 name: 快递取件
-description: 桌面小组件显示待取件取件码, 大字取件码一眼能看清, 点一下打开菜鸟。取件码填在下面的 Env 里, 不用登录、不用 API Key。
+description: '桌面小组件显示待取件取件码, 大字取件码一眼能看清, 点一下打开菜鸟。取件码填在下面的 Env 里, 不用登录、不用 API Key。'
 author: Rio
 env_schema:
   PARCELS_JSON:
-    name: 包裹列表 (JSON)
-    description: '多件就填这个, 例: [{"code":"8241","courier":"菜鸟驿站","station":"小区东门菜鸟驿站","name":"日用品","time":"今日 18:00 前取"},{"code":"5623","courier":"丰巢","station":"小区西门丰巢柜","name":"衣服"}]'
+    name: '包裹列表 (JSON)'
+    description: '多件就填这个, 例 [{"code":"8241","courier":"菜鸟驿站","station":"小区东门菜鸟驿站","name":"日用品","time":"今日 18:00 前取"},{"code":"5623","courier":"丰巢","station":"小区西门丰巢柜","name":"衣服"}]'
     default_value: ''
   PICKUP_CODE:
-    name: 取件码 (单件)
-    description: 只有一件时填这个就行, 不用填上面的 JSON。例: 8241
+    name: '取件码 (单件)'
+    description: '只有一件时填这个就行, 不用填上面的 JSON。例 8241'
     default_value: ''
   COURIER:
-    name: 快递 / 驿站
-    description: 例: 菜鸟驿站 / 丰巢 / 京东 / 顺丰
+    name: '快递 / 驿站'
+    description: '例 菜鸟驿站 / 丰巢 / 京东 / 顺丰'
     default_value: '菜鸟驿站'
   STATION:
-    name: 取件地点
-    description: 例: 小区东门菜鸟驿站
+    name: '取件地点'
+    description: '例 小区东门菜鸟驿站'
     default_value: ''
   PARCEL_NAME:
-    name: 包裹名 (可选)
-    description: 例: 日用品, 不填也行
+    name: '包裹名 (可选)'
+    description: '例 日用品, 不填也行'
     default_value: ''
   DEADLINE:
-    name: 取件提示 (可选)
-    description: 例: 今日 18:00 前取
+    name: '取件提示 (可选)'
+    description: '例 今日 18:00 前取'
     default_value: ''
   OPEN_URL:
-    name: 点击打开
-    description: 点小组件打开哪个 App, 默认菜鸟
+    name: '点击打开'
+    description: '点小组件打开哪个 App, 默认菜鸟'
     default_value: 'cainiao://'
 scriptings:
 - generic:
     name: kuaidi-widget
-    script_url: https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/egern/kuaidi-widget.js
+    script_url: 'https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/egern/kuaidi-widget.js'
     timeout: 20
 widgets:
 - name: 快递取件
