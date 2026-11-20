@@ -1,0 +1,31 @@
+name: '快递取件抓包'
+description: '试淘宝 / 京东 / 菜鸟自动同步用的抓包模块, 只抓一次登录请求, 不改数据。装上后打开淘宝、京东、菜鸟 App 看一次订单, 抓到的请求地址会存到 Egern 本地, 发截图给助理就能写定时同步脚本。'
+author: Rio
+mitm:
+  hostnames:
+    - '*.taobao.com'
+    - '*.tmall.com'
+    - '*.jd.com'
+    - '*.cainiao.com'
+    - '*.guoguo.com'
+scriptings:
+- http_request:
+    name: '快递取件抓包-淘宝'
+    match: '^https://.*\\.taobao\\.com/'
+    script_url: 'https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/egern/kuaidi-capture.js'
+    timeout: 20
+- http_request:
+    name: '快递取件抓包-天猫'
+    match: '^https://.*\\.tmall\\.com/'
+    script_url: 'https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/egern/kuaidi-capture.js'
+    timeout: 20
+- http_request:
+    name: '快递取件抓包-京东'
+    match: '^https://.*\\.jd\\.com/'
+    script_url: 'https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/egern/kuaidi-capture.js'
+    timeout: 20
+- http_request:
+    name: '快递取件抓包-菜鸟'
+    match: '^https://.*(cainiao|guoguo)\\.'
+    script_url: 'https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/egern/kuaidi-capture.js'
+    timeout: 20
