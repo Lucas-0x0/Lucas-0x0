@@ -1,21 +1,145 @@
 {
+
   "name": "Lucas-icons",
+
   "icons": [
+
     {
+
       "name": "egern图标 漏网之鱼 louwangzhiyu",
+
       "url": "https://raw.githubusercontent.com/Lucas-0x0/icons/main/icons/Lucas/daili/louwangzhiyu.png"
+
     },
+
     {
+
       "name": "egern图标 漏网之鱼 louwangzhiyu",
+
       "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/yuwangzhiyu.png"
+
     },
+
     {
+
       "name": "egern图标 Louis",
+
       "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/louis.png"
+
     },
+
     {
+
       "name": "egern图标 Louis",
+
       "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/louis-sparkler.png"
+
+    },
+
+    {
+
+      "name": "egern图标 抱猫男孩 baomaonanhai",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/baomao-nanhai.png"
+
+    },
+
+    {
+
+      "name": "egern图标 卡比 kabi",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/kabi.png"
+
+    },
+
+    {
+
+      "name": "egern图标 古风女孩 gufengnvhai",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/gufeng-nvhai.png"
+
+    },
+
+    {
+
+      "name": "egern图标 扇子女孩 shanzinvhai",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/shanzi-nvhai.png"
+
+    },
+
+    {
+
+      "name": "egern图标 红裙女孩 hongqunnvhai",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/hongqun-nvhai.png"
+
+    },
+
+    {
+
+      "name": "egern图标 黄色笑脸 huangsexiaolian",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/huangse-xiaolian.png"
+
+    },
+
+    {
+
+      "name": "egern图标 红色圆点人像 hongseyuandian",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/hongse-yuandian.png"
+
+    },
+
+    {
+
+      "name": "egern图标 玻璃熊 bolixiong",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/boli-xiong.png"
+
+    },
+
+    {
+
+      "name": "egern图标 24小时监控 jiankong24h",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/jiankong-24h.png"
+
+    },
+
+    {
+
+      "name": "egern图标 回头少年 huitaoshaonian",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/huitou-shaonian.png"
+
+    },
+
+    {
+
+      "name": "egern图标 墨镜男孩 mojingnanhai",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/mojing-nanhai.png"
+
+    },
+
+    {
+
+      "name": "egern图标 壮汉 zhuanghan",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/zhuanghan.png"
+
+    },
+
+    {
+
+      "name": "egern图标 鹿角鸭 lujiaoya",
+
+      "url": "https://raw.githubusercontent.com/Lucas-0x0/Lucas-0x0/main/icons/Lucas/daili/lujiao-ya.png"
+
     }
+
   ]
+
 }
